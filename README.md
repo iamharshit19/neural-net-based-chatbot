@@ -105,3 +105,6 @@ Retrain the Model: After saving your changes to intents.json, you must run the t
 Restart the App: If your Streamlit app is still running, stop it (Ctrl+C in the terminal) and restart it to see your changes.
 
     streamlit run streamlit_app.py
+
+<img width="1920" height="1080" alt="chatbot" src="https://github.com/user-attachments/assets/9e72a388-06ba-4e2e-a875-213f74116743" />
+
