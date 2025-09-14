@@ -43,30 +43,30 @@ pip package manager
 Create and activate a virtual environment to keep the project's dependencies isolated.
 
 # Create the environment
-python -m venv venv
+      python -m venv venv
 
 # Activate on Mac/Linux
-source venv/bin/activate
+      source venv/bin/activate
 
 # Activate on Windows
-.\venv\Scripts\activate
+      .\venv\Scripts\activate
 
 2. Install Dependencies
 Install all the required Python libraries from the requirements.txt file.
 
-pip install -r requirements.txt
+            pip install -r requirements.txt
 
 3. Train the Chatbot Model
 Before you can run the app, you must train the model. This script reads your intents.json file and creates the necessary model files.
 
-python training.py
+            python training.py
 
 This will create chatbot_model.h5, words.pkl, and classes.pkl. You only need to re-run this script when you modify intents.json.
 
 4. Run the Streamlit App
 Now you are ready to start the chatbot!
 
-streamlit run streamlit_app.py
+            streamlit run streamlit_app.py
 
 This will launch the application in your default web browser. You can now start chatting with your bot.
 
